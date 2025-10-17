@@ -1,6 +1,5 @@
 {
-  "name": "@pocketpa/models",
-  "private": true,
+  "name": "pocketpa-models",
   "version": "1.0.0",
   "author": "POCKETPa.",
   "license": "UNLICENSED",
@@ -16,6 +15,6 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "prepare": "npm install && npx tsc"
+    "build": "npx tsc"
   }
 }
