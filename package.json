@@ -1,0 +1,21 @@
+{
+  "name": "@pocketpa/models",
+  "private": true,
+  "version": "1.0.0",
+  "author": "POCKETPa.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  }
+}
